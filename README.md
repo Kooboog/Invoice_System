@@ -1,5 +1,4 @@
 # Invoice_System Project
-Overview
 This project is a simple invoice management system implemented in Java using JDBC and MySQL. The system allows the owner to manage customers, products, and invoices. It also provides functionalities to view and manage invoices and generate various sales reports.
 
 Features
