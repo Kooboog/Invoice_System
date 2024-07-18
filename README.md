@@ -14,8 +14,8 @@ Features
 -View total units of product sold
 
 
-## Table Designs
-# Customers
+# Table Designs
+## Customers
 customer_id (INT, Primary Key, Auto Increment)
 name (VARCHAR(100))
 phone (VARCHAR(15))
