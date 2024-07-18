@@ -20,20 +20,20 @@ customer_id (INT, Primary Key, Auto Increment)
 name (VARCHAR(100))
 phone (VARCHAR(15))
 
-# Products
+## Products
 product_id (INT, Primary Key, Auto Increment)
 name (VARCHAR(100))
 price (DOUBLE)
 stock (INT)
 
-# Invoices
+## Invoices
 invoice_id (INT, Primary Key, Auto Increment)
 customer_id (INT, Foreign Key)
 date (TIMESTAMP)
 total_amount (DOUBLE)
 paid (BOOLEAN)
 
-# InvoiceItems
+## InvoiceItems
 invoice_item_id (INT, Primary Key, Auto Increment)
 invoice_id (INT, Foreign Key)
 product_id (INT, Foreign Key)
